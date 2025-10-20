@@ -9,11 +9,15 @@ Tools Used:
     • Node.js
     • Docker & DockerHub
     • Personal Access Tokens (GitHub & DockerHub)
+
+    
 Step 1: Prepare the Node.js Project
     1. Created a sample Node.js project with files:
         ◦ app.js → main application file
         ◦ package.json → Node.js dependencies
     2. Created a Dockerfile to containerize the app:
+
+    
 FROM node:18
 WORKDIR /app
 COPY package*.json ./
